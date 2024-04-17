@@ -1,4 +1,6 @@
-
+/*
+解題想法:使用greedy貪心法，先將每一個商品價格輸入進vector再進行sort，每三個商品取當中最小值即為免費商品
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int main()
