@@ -1,5 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
+//當人數n >= 4, 有兩種策略(選擇(1)(2)兩個方案中時間較短的)：
+//1. (AB)一起過橋 -> A帶回手電筒 -> (YZ)一起過橋 -> B帶回手電筒：花費時間 B+A+Z+B。
+//2. (AZ)一起過橋 -> A帶回手電筒 -> (AY)一起過橋-> A帶回手電筒：花費時間 Z+A+Y+A。
 int main(){
     int t;
     while(cin>>t)
