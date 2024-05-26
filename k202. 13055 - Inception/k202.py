@@ -1,4 +1,4 @@
-dream=[]
+ dream=[]
 num=int(input())
 while num:
     name=input()
