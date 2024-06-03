@@ -1,3 +1,7 @@
+/*
+解題策略：
+因為A,B (0<=A,B<=1000000)，所以dp大小設成30即可
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int main()
