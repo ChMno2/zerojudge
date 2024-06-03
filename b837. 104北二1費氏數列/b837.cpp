@@ -13,5 +13,24 @@ int main()
         dp[i] = dp[i - 1] + dp[i - 2];
     }
     cin >> n;
-    
+    for (int q = 0; q < n; q++)
+    {
+        cin >> a >> b;
+        int i = lower_bound(dp.begin(), dp.end(), min(a, b)) - dp.begin();
+        int j = upper_bound(dp.begin(), dp.end(), max(a, b)) - dp.begin();
+
+        if (j - i)
+        {
+            for (int t = i; t < j; t++)
+            {
+                cout << dp[t] << '\n';
+            }
+            cout << abs(j - i) << '\n';
+        }
+        else
+            cout << 0 << '\n';
+        if (q == n - 1)
+            continue;
+        cout << "------" << endl;
+    }
 }
