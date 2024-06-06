@@ -22,3 +22,4 @@ int main()
         cout << DP(n) << '\n';
     }
 }
+
