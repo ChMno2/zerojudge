@@ -1,5 +1,6 @@
-【題目敘述】https://zerojudge.tw/ShowProblem?problemid=d908
-【解題想法】DFS
+【題目敘述】給定各個端點之間的距離，在有向圖都不會存在有一條路徑的起始節點與終止節點是同一個的情況下，
+           求出這條路徑的權重總和值最大，
+【解題想法】DFS，將路徑作加總並取最大值
 
 func( )：以遞迴方式實現DFS
 map <char, vector<pair<char, int> > > mp; 紀錄每一點可以通往的鄰接點及其權重。
