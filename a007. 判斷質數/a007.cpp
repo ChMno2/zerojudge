@@ -4,6 +4,8 @@
       建立質數表的同時，把質數存入vector v中
     2.大於46341的數字，測試其是否有「v」的任何因數,有的話就可以提早結束迴圈
 */
+
+
 #include <bits/stdc++.h>
 using namespace std;
 bool a[46342]; // sqrt(2147483647)==46342
