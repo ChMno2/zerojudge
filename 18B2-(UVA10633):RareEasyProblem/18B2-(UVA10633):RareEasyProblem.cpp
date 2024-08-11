@@ -12,3 +12,5 @@ int main(){
 			cout<<s*10/9<<endl;
 	}
 }
+
+
